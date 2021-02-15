@@ -14,7 +14,7 @@
 	<name>coronavirus-tracker</name>
 	<description>Coronavirus Tracker App with SpringBoot</description>
 	<properties>
-		<java.version>8</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -53,15 +53,15 @@
 				<artifactId>spring-boot-maven-plugin </artifactId>
 			</plugin>
 
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
-				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
-				</configuration>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-compiler-plugin</artifactId>-->
+<!--				<version>3.1</version>-->
+<!--				<configuration>-->
+<!--					<source>1.7</source>-->
+<!--					<target>1.7</target>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 
 		</plugins>
 
